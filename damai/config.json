@@ -1,20 +1,18 @@
 {
   "index_url": "https://www.damai.cn/",
   "login_url": "https://passport.damai.cn/login?ru=https%3A%2F%2Fwww.damai.cn%2F",
-  "target_url": "https://m.damai.cn/shows/item.html?from=def&itemId=779925862781&sqm=dianying.h5.unknown.value&spm=a2o71.category_singconcert.toursnatchticket.city_2",
+  "target_url": "https://detail.damai.cn/item.htm?spm=a2oeg.project.searchtxt.ditem_0.488347c6V3MvoI&id=844726205063",
   "users": [
-    "姓名1",
-    "姓名2"
+    "张三",
+    "李四"
   ],
-  "city": "南京",
+  "city": "佛山",
   "dates": [
-    "2024-05-11",
-    "2024-05-12"
+    "2024-12-07"
   ],
   "prices": [
-    "580",
-    "780"
+    "618"
   ],
   "if_listen": true,
-  "if_commit_order": false
+  "if_commit_order": true
 }

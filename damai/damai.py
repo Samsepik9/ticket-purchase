@@ -1,9 +1,10 @@
 # -*- coding: UTF-8 -*-
 """
-__Author__ = "WECENG"
-__Version__ = "1.0.0"
+__Author__ = "Fork WECENG" && "Samsepi0l"
+__Version__ = "1.1.0"
 __Description__ = "大麦抢票脚本"
 __Created__ = 2023/10/10 17:12
+__Modified__ = 2024/11/10 23:08
 """
 import json
 import time
@@ -39,7 +40,7 @@ def grab():
         # 页面停留5分钟
         time.sleep(300)
     except Exception as e:
-        print(e)
+        print("get tickets error: {}".format(e))
         con.finish()
 
 

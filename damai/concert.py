@@ -1,9 +1,10 @@
 # -*- coding: UTF-8 -*-
 """
-__Author__ = "WECENG"
+__Author__ = "Fork WECENG" && "Samsepi0l"
 __Version__ = "1.0.0"
 __Description__ = ""
 __Created__ = 2023/10/10 17:00
+__Modified__ = 2024/11/10 23:08
 """
 
 import os.path
@@ -71,7 +72,7 @@ class Concert:
         elif self.login_method == 1:
             if not os.path.exists('damai_cookies.pkl'):
                 # 没有cookie就获取
-                self.set_cookie()
+                self.set_cookie()       #第二次登录需要把原有cookie文件删除
             else:
                 self.driver.get(self.config.target_url)
                 self.get_cookie()
